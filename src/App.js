@@ -202,16 +202,16 @@ const App = () => {
 const MenuList = () => (
   <ul>
     <li>
-      <a href="#">Product</a>
+      <a href="/">Product</a>
     </li>
     <li>
-      <a href="#">Resources</a>
+      <a href="/">Resources</a>
     </li>
     <li>
-      <a href="#">Contact</a>
+      <a href="/">Contact</a>
     </li>
     <li>
-      <a href="#" className="menu-btn">
+      <a href="/" className="menu-btn">
         Sign Up
       </a>
     </li>
@@ -220,10 +220,10 @@ const MenuList = () => (
 
 const CallToActionButtons = () => (
   <>
-    <a href="#" className="action-btn">
+    <a href="/" className="action-btn">
       Try 4 Free
     </a>
-    <a href="#" className="action-ghost-btn">
+    <a href="/" className="action-ghost-btn">
       More Info
     </a>
   </>
