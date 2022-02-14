@@ -1,6 +1,5 @@
 import React from "react";
-import styled from "styled-components";
-import { Timeline, Controls, Tween } from "react-gsap";
+import { Timeline, Tween } from "react-gsap";
 import "./css/reset.css";
 import "./css/styles.css";
 
@@ -12,12 +11,12 @@ const App = () => {
           { label: "start", position: 0 },
           {
             label: "header-end",
-            position: "start+=1.8"
+            position: "start+=1.8",
           },
           { label: "h1Show", position: "header-end+=1.3" },
           { label: "girl-start", position: "h1Show-=0.5" },
           { label: "boy-start", position: "girl-start+=0.4" },
-          { label: "shapes-start", position: "boy-start+=0.4" }
+          { label: "shapes-start", position: "boy-start+=0.4" },
         ]}
       >
         <header>
